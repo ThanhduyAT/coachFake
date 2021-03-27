@@ -21,17 +21,20 @@ struct HomeView: View {
                     Image(systemName: "bus.fill")
                     Text("Route")
                 }
+                .tag(MenuItem.ROUTE)
             
             TicketView(selectedMenuItem: $selected)
                 .tabItem {
                     Image(systemName: "note.text")
                     Text("Your ticket")
                 }
+                .tag(MenuItem.TICKET)
             UserView()
                 .tabItem {
                     Image(systemName: "person.crop.circle.fill")
                     Text("Account")
                 }
+                .tag(MenuItem.USER)
             
         }
         
