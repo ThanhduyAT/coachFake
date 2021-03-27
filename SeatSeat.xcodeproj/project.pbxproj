@@ -28,6 +28,7 @@
 		C685B7A925FE4E8B006873C6 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C685B7A825FE4E8B006873C6 /* LoadingScreen.swift */; };
 		C686331F25FFAC1300509BD9 /* TicketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C686331E25FFAC1200509BD9 /* TicketViewModel.swift */; };
 		C686332225FFB09000509BD9 /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C686332125FFB09000509BD9 /* TicketModel.swift */; };
+		C6B6DDA7260F1D8500A7A250 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B6DDA6260F1D8500A7A250 /* PostData.swift */; };
 		C6BB9C1825FB85B9002CB6BD /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB9C1725FB85B9002CB6BD /* Test.swift */; };
 		C6BB9C1D25FB87AC002CB6BD /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB9C1C25FB87AC002CB6BD /* UserView.swift */; };
 		C6BB9C2125FB87B9002CB6BD /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB9C2025FB87B9002CB6BD /* TicketView.swift */; };
@@ -69,6 +70,7 @@
 		C685B7A825FE4E8B006873C6 /* LoadingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
 		C686331E25FFAC1200509BD9 /* TicketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewModel.swift; sourceTree = "<group>"; };
 		C686332125FFB09000509BD9 /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
+		C6B6DDA6260F1D8500A7A250 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		C6BB9C1725FB85B9002CB6BD /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		C6BB9C1C25FB87AC002CB6BD /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		C6BB9C2025FB87B9002CB6BD /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				C6DE17CD25EE4A590007CE87 /* GoogleService-Info.plist */,
 				C6DE17B725EE48DC0007CE87 /* Info.plist */,
 				C6DE17B425EE48DC0007CE87 /* Preview Content */,
+				C6B6DDA6260F1D8500A7A250 /* PostData.swift */,
 			);
 			path = BookTheCoach;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				C62EC2AD25F5E430002F4808 /* FBAuth.swift in Sources */,
 				C6BB9C1825FB85B9002CB6BD /* Test.swift in Sources */,
 				C6DE17AF25EE48D80007CE87 /* BookTheCoachApp.swift in Sources */,
+				C6B6DDA7260F1D8500A7A250 /* PostData.swift in Sources */,
 				C62EC2B125F5E877002F4808 /* UserInfo.swift in Sources */,
 				C6BB9C2825FB884C002CB6BD /* BookingViewModel.swift in Sources */,
 				C62EC2A825F5E3F5002F4808 /* FBKeys.swift in Sources */,
