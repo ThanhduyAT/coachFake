@@ -9,8 +9,9 @@ import SwiftUI
 
 struct RouteView: View {
     @ObservedObject var routes = RouteViewModel()
+    @Binding var selectedMenuItem: MenuItem
     var body: some View {
-        NavigationView {
+        return NavigationView {
             List(routes.routes, id: \.self) { route in
                 let rid = route.rid
                 let bookedseat = route.bookedseats
@@ -48,19 +49,22 @@ struct RouteView: View {
                         }
                     })
             }
-            .onAppear() {
-                self.routes.fetchData()
-            }
             .navigationTitle("Tuyen xe")
             
         }
+        .onAppear() {
+            if MenuItem.ROUTE == selectedMenuItem {
+                self.routes.fetchData()
+            }
+        }
+
         
     }
 }
 
-struct RouteView_Previews: PreviewProvider {
-    static var routes = RouteViewModel()
-    static var previews: some View {
-        RouteView()
-    }
-}
+//struct RouteView_Previews: PreviewProvider {
+//    static var routes = RouteViewModel()
+//    static var previews: some View {
+//        RouteView()
+//    }
+//}

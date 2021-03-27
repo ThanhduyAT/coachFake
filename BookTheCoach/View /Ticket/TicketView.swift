@@ -13,8 +13,10 @@ struct TicketView: View {
     @ObservedObject var tickets = TicketViewModel()
     @State var showAlert = false
     
+    @Binding var selectedMenuItem: MenuItem
+    
     var body: some View {
-        NavigationView {
+        return NavigationView {
             List(tickets.ticket, id: \.inforid) { ticket in
                 let route = ticket.route
                 let day = ticket.day
@@ -77,11 +79,14 @@ struct TicketView: View {
                 
             }
             .navigationTitle("Ticket")
-            .onAppear() {
+        }
+        .onAppear() {
+            if MenuItem.TICKET == selectedMenuItem {
                 tickets.fetchInfoId(email: userInfo.user.email)
             }
         }
     }
+
     func deleteSeatToInfoid(infoid: String) {
         Firestore.firestore().collection("infoid").document("\(infoid)").delete() { err in
             if let err = err {
@@ -106,8 +111,8 @@ struct TicketView: View {
     
 }
 
-struct TicketView_Previews: PreviewProvider {
-    static var previews: some View {
-        TicketView()
-    }
-}
+//struct TicketView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        TicketView(selectedMenuItem: MenuItem)
+//    }
+//}
