@@ -177,7 +177,7 @@ struct BookingView: View {
                 Button(action: {
                     self.showingHalfModalView.toggle()
                 }, label: {
-                    Text("Dat ve")
+                    Text("Book The Ticket")
                         .font(.headline)
                         .fontWeight(.heavy)
                         .foregroundColor(.white)
@@ -197,11 +197,11 @@ struct BookingView: View {
             
             HalfModalView(isShown: $showingHalfModalView) {
                 VStack {
-                    TextField("Nhap ten nguoi dat xe", text: $name)
+                    TextField("Enter Your Name", text: $name)
                         .frame(width: UIScreen.main.bounds.width - 20)
                         .cornerRadius(6)
                     
-                    TextField("Nhap so dien de dat xe", text: $sdt)
+                    TextField("Enter Your Phone", text: $sdt)
                         .frame(width: UIScreen.main.bounds.width - 20)
                         .cornerRadius(6)
                         .padding(.top, 10)
@@ -223,7 +223,7 @@ struct BookingView: View {
                         
                         
                     }, label: {
-                        Text("Ap Dung")
+                        Text("Apply")
                             .fontWeight(.bold)
                             .font(.headline)
                             .foregroundColor(.white)

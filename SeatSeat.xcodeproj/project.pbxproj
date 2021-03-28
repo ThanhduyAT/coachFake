@@ -29,7 +29,6 @@
 		C686331F25FFAC1300509BD9 /* TicketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C686331E25FFAC1200509BD9 /* TicketViewModel.swift */; };
 		C686332225FFB09000509BD9 /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C686332125FFB09000509BD9 /* TicketModel.swift */; };
 		C6B6DDA7260F1D8500A7A250 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B6DDA6260F1D8500A7A250 /* PostData.swift */; };
-		C6BB9C1825FB85B9002CB6BD /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB9C1725FB85B9002CB6BD /* Test.swift */; };
 		C6BB9C1D25FB87AC002CB6BD /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB9C1C25FB87AC002CB6BD /* UserView.swift */; };
 		C6BB9C2125FB87B9002CB6BD /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB9C2025FB87B9002CB6BD /* TicketView.swift */; };
 		C6BB9C2825FB884C002CB6BD /* BookingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB9C2725FB884C002CB6BD /* BookingViewModel.swift */; };
@@ -71,7 +70,6 @@
 		C686331E25FFAC1200509BD9 /* TicketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewModel.swift; sourceTree = "<group>"; };
 		C686332125FFB09000509BD9 /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
 		C6B6DDA6260F1D8500A7A250 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
-		C6BB9C1725FB85B9002CB6BD /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		C6BB9C1C25FB87AC002CB6BD /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		C6BB9C2025FB87B9002CB6BD /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		C6BB9C2725FB884C002CB6BD /* BookingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewModel.swift; sourceTree = "<group>"; };
@@ -131,7 +129,6 @@
 				C62D9A3725FA56CA000AEABD /* RouteView.swift */,
 				C646101F25FA6C240028DBA9 /* BookingView.swift */,
 				C62CBD1525FA44FB00A53D34 /* HalfModalView.swift */,
-				C6BB9C1725FB85B9002CB6BD /* Test.swift */,
 			);
 			path = Route;
 			sourceTree = "<group>";
@@ -344,7 +341,6 @@
 				C62EC28B25F5D251002F4808 /* HomeView.swift in Sources */,
 				C62EC2AC25F5E430002F4808 /* FBAuthError.swift in Sources */,
 				C62EC2AD25F5E430002F4808 /* FBAuth.swift in Sources */,
-				C6BB9C1825FB85B9002CB6BD /* Test.swift in Sources */,
 				C6DE17AF25EE48D80007CE87 /* BookTheCoachApp.swift in Sources */,
 				C6B6DDA7260F1D8500A7A250 /* PostData.swift in Sources */,
 				C62EC2B125F5E877002F4808 /* UserInfo.swift in Sources */,
